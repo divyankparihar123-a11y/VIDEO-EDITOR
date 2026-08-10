@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -f pip_install_core.log)",
+      "Bash(nohup ./.venv/Scripts/python.exe -m pip install -r requirements-core.txt --progress-bar off --retries 10 --timeout 120)",
+      "Bash(disown)",
+      "Bash(echo \"started with PID $!\")",
+      "Bash(tasklist //FI \"IMAGENAME eq python.exe\")"
+    ]
+  }
+}

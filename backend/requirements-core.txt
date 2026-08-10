@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic>=2
+pydantic-settings
+sqlalchemy>=2
+aiofiles
+opencv-python-headless
+scenedetect[opencv]
+faster-whisper
+librosa
+soundfile
+numpy
+pillow
+mediapipe
+pytest
+httpx
